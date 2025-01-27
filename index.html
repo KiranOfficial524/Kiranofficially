@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Quote App</h1>
+    <button id="aboutBtn">About</button>
+  </header>
+
+  <main>
+    <section class="card">
+      <textarea id="postInput" placeholder="Write your amazing post here!"></textarea>
+      <button id="addPostBtn">Add Post</button>
+    </section>
+
+    <section class="card">
+      <h3>Admin Login for Delete:</h3>
+      <input type="email" id="emailInput" placeholder="Email">
+      <input type="password" id="passwordInput" placeholder="Password">
+    </section>
+
+    <section id="postsSection">
+      <h3>Your Posts:</h3>
+      <div id="posts"></div>
+    </section>
+  </main>
+
+  <footer id="aboutPage" class="hidden">
+    <h2>Official Contact</h2>
+    <p>Email: ghanshyamoli922@gmail.com</p>
+    <p>Mobile Number 1: 9762596912</p>
+    <p>Mobile Number 2: 9764301225</p>
+    <p>If you have any issues or suggestions, contact via WhatsApp.</p>
+    <button id="closeAboutBtn">Close</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
